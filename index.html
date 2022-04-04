@@ -1,0 +1,95 @@
+<html lang="en"><head><meta name="viewport" content="width=device-width"/><meta charSet="utf-8"/><script async="" defer="" data-api="/proxy/api/event" data-domain="walletconnect.com" src="/js/script.js"></script><script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script><title>Home - WalletConnect</title><meta name="description" content="WalletConnect is an open source protocol for connecting decentralised applications to mobile wallets with QR code scanning or deep linking."/><link rel="icon" href="/favicon.ico"/><meta name="next-head-count" content="7"/><meta name="description" content="Open protocol for connecting Wallets to Dapps"/><meta name="msapplication-TileColor" content="#da532c"/><meta name="theme-color" content="#ffffff"/><meta name="description" content="WalletConnect is the open source web3 standard to connect blockchain wallets to dapps."/><meta name="keywords" content="ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, standard, protocol, crypto, tokens, dapp"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@WalletConnect"/><meta name="twitter:title" content="WalletConnect"/><meta name="twitter:description" content="WalletConnect is the open source web3 standard to connect blockchain wallets to dapps."/><meta name="twitter:img:src" content="https://walletconnect.com/social-card.png"/><meta name="og:title" content="WalletConnect"/><meta name="og:type" content="website"/><meta name="og:url" content="https://walletconnect.com"/><meta name="og:image" content="https://walletconnect.com/social-card.png"/><meta name="twitter:image:alt" content="Connect web3 wallets to dapps."/><meta name="og:description" content="WalletConnect is the open source web3 standard to connect blockchain wallets to dapps."/><meta name="og:site_name" content="WalletConnect"/><meta name="fb:admins" content="365412154213405"/><link rel="icon" href="/favicon.ico"/><link rel="preload" href="/_next/static/css/97a942ab064c7d2a.css" as="style"/><link rel="stylesheet" href="/_next/static/css/97a942ab064c7d2a.css" data-n-g=""/><link rel="preload" href="/_next/static/css/5989a67aa78790b3.css" as="style"/><link rel="stylesheet" href="/_next/static/css/5989a67aa78790b3.css" data-n-p=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-0d046cc02e5d4047.js" defer=""></script><script src="/_next/static/chunks/framework-1b1477f9717fa649.js" defer=""></script><script src="/_next/static/chunks/main-a07e9547dc72bd05.js" defer=""></script><script src="/_next/static/chunks/pages/_app-b445cb0605b23a48.js" defer=""></script><script src="/_next/static/chunks/876-5f87da182ea447d3.js" defer=""></script><script src="/_next/static/chunks/557-d5430c3aca5f58f9.js" defer=""></script><script src="/_next/static/chunks/pages/index-69e8bdd0e16ff3b9.js" defer=""></script><script src="/_next/static/aRXSWpAJWkU4OKVRaRxBv/_buildManifest.js" defer=""></script><script src="/_next/static/aRXSWpAJWkU4OKVRaRxBv/_ssgManifest.js" defer=""></script><script src="/_next/static/aRXSWpAJWkU4OKVRaRxBv/_middlewareManifest.js" defer=""></script></head><body><script>(function setScript(initialValue) {
+  var mql = window.matchMedia("(prefers-color-scheme: dark)");
+  var systemPreference = mql.matches ? "dark" : "light";
+  var persistedPreference = systemPreference;
+
+  try {
+    persistedPreference = localStorage.getItem("chakra-ui-color-mode");
+  } catch (error) {
+    console.log("Chakra UI: localStorage is not available. Color mode persistence might not work as expected");
+  }
+
+  var colorMode;
+
+  if (persistedPreference) {
+    colorMode = persistedPreference;
+  } else if (initialValue === "system") {
+    colorMode = systemPreference;
+  } else {
+    colorMode = initialValue != null ? initialValue : systemPreference;
+  }
+
+  if (colorMode) {
+    /**
+     * Keep in sync with `root.set() {@file ./color-mode.utils.ts}
+     */
+    document.documentElement.style.setProperty("--chakra-ui-color-mode", colorMode);
+    document.documentElement.setAttribute("data-theme", colorMode);
+  }
+})('light')</script><div id="__next" data-reactroot=""><style>
+      #nprogress {
+        pointer-events: none;
+      }
+      #nprogress .bar {
+        background: #F6AD55;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+      }
+      #nprogress .peg {
+        display: block;
+        position: absolute;
+        right: 0px;
+        width: 100px;
+        height: 100%;
+        box-shadow: 0 0 10px #F6AD55, 0 0 5px #F6AD55;
+        opacity: 1;
+        -webkit-transform: rotate(3deg) translate(0px, -4px);
+        -ms-transform: rotate(3deg) translate(0px, -4px);
+        transform: rotate(3deg) translate(0px, -4px);
+      }
+      #nprogress .spinner {
+        display: block;
+        position: fixed;
+        z-index: 1031;
+        top: 15px;
+        right: 15px;
+      }
+      #nprogress .spinner-icon {
+        width: 18px;
+        height: 18px;
+        box-sizing: border-box;
+        border: solid 2px transparent;
+        border-top-color: #F6AD55;
+        border-left-color: #F6AD55;
+        border-radius: 50%;
+        -webkit-animation: nprogresss-spinner 400ms linear infinite;
+        animation: nprogress-spinner 400ms linear infinite;
+      }
+      .nprogress-custom-parent {
+        overflow: hidden;
+        position: relative;
+      }
+      .nprogress-custom-parent #nprogress .spinner,
+      .nprogress-custom-parent #nprogress .bar {
+        position: absolute;
+      }
+      @-webkit-keyframes nprogress-spinner {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @keyframes nprogress-spinner {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
